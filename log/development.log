@@ -1,0 +1,18 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 10:43:41 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/margot/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/templates/rails/welcome/index.html.erb (12.8ms)
+Completed 200 OK in 152ms (Views: 108.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/durations/new" for 127.0.0.1 at 2016-02-06 11:13:16 +0100
+Processing by DurationsController#new as HTML
+  Rendered durations/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5411ms (Views: 5408.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/durations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-06 11:13:22 +0100
+
+
+Started GET "/assets/durations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-02-06 11:13:22 +0100
