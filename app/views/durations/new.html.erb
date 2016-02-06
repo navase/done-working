@@ -1,2 +1,6 @@
-<h1>Durations#new</h1>
-<p>Find me in app/views/durations/new.html.erb</p>
+<p>What time do you get off work?</p>
+
+<%= form_tag durations_path do %>
+  <%= select_time Time.now, prefix: :time_off_hash, :minute_step => 5 %>
+  <%= submit_tag "Go!" %>
+<% end %>
