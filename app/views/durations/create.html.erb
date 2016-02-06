@@ -1,4 +1,21 @@
-<p><%= @time_off %></p>
-<p><%= @time_now %></p>
-<p><%= @time_difference %></p>
-<p><%= @time_difference.hour %>:<%= @time_difference.min %></p>
+<meta http-equiv="refresh" content="1">
+
+<div class="wrapper">
+  <div class = "question_time">
+    <h1>Just <%= @time_difference.hour %>
+
+      <% if @time_difference.hour == 1 %>
+        <%= "more hour" %>
+      <% else %>
+        <%= "more hours" %>
+      <% end %>
+
+      and <%= @time_difference.min %>
+      <% if @time_difference.min == 1 %>
+        <%= "minute!" %>
+      <% else %>
+        <%= "minutes!" %>
+      <% end %>
+      </h1>
+  </div>
+</div>

@@ -1,6 +1,6 @@
 <p>What time do you get off work?</p>
 
-<%= form_tag durations_path do %>
-  <%= select_time Time.now, prefix: :time_off_hash, :minute_step => 5 %>
+<%= form_tag durations_path, method: :get do %>
+  <%= select_time Time.now, prefix: :time_off_hash, minute_step: 5 %>
   <%= submit_tag "Go!" %>
 <% end %>
