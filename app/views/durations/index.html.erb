@@ -6,7 +6,7 @@
       <div class = "anwser_wrapper">
         <div class= "answser">
         <%= form_tag durations_path do %>
-          <%= select_time Time.now, prefix: :time_off_hash, :minute_step => 5 %>
+          <%= select_time Time.now, {prefix: :time_off_hash, minute_step: 5} %>
           <%= submit_tag "Go!" %>
         <% end %>
       </div>
