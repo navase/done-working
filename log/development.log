@@ -2170,3 +2170,44 @@ Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-02-06 14:58:58 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-06 15:03:56 +0100
+Processing by DurationsController#index as HTML
+  Rendered durations/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 199ms (Views: 190.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/durations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-06 15:03:57 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-06 15:03:57 +0100
+
+
+Started GET "/assets/application.self-f97441104f77d812a9c662a2136b267d241831b8f295faec7b45b7e6fb31e030.css?body=1" for 127.0.0.1 at 2016-02-06 15:03:57 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-02-06 15:03:57 +0100
+
+
+Started GET "/assets/durations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-02-06 15:03:57 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-06 15:03:57 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-02-06 15:03:57 +0100
+
+
+Started POST "/durations" for 127.0.0.1 at 2016-02-06 15:03:58 +0100
+Processing by DurationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C3LHnMrzSTg443wRD7ueH8D+YtDn1eqvqIaS2zIT0q1yA0T4qxuXKaWMoXm/pSZdieyVa4WW4bBiD+1dEblgDw==", "time_off_hash"=>{"year"=>"2016", "month"=>"2", "day"=>"6", "hour"=>"14", "minute"=>"00"}, "commit"=>"Go!"}
+  Rendered durations/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/durations" for 127.0.0.1 at 2016-02-06 15:04:02 +0100
+Processing by DurationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C3LHnMrzSTg443wRD7ueH8D+YtDn1eqvqIaS2zIT0q1yA0T4qxuXKaWMoXm/pSZdieyVa4WW4bBiD+1dEblgDw==", "time_off_hash"=>{"year"=>"2016", "month"=>"2", "day"=>"6", "hour"=>"14", "minute"=>"00"}, "commit"=>"Go!"}
+  Rendered durations/create.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)

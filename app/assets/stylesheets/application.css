@@ -13,3 +13,52 @@
  *= require_tree .
  *= require_self
  */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+
+
+body {
+  background-color: #F9CD5A;
+}
+
+.main_wrapper {
+  width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+}
+
+
+.wrapper {
+  width: 1000px;
+  height: 600px;
+	position:absolute;
+  left:0; right:0;
+  top:0; bottom:0;
+	margin:auto;
+	max-width:100%;
+	max-height:100%;
+	overflow:auto;
+
+}
+
+.question_time h1 {
+  color: #345A42;
+  font-family: 'Roboto Slab', serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+.anwser_wrapper {
+  width: 1000px;
+  height: 200px;
+
+}
+
+.answser {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.form_tag {
+    background-color: black;
+}
